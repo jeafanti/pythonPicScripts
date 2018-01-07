@@ -1,8 +1,17 @@
 #!/usr/bin/python
 #
-# python /cygdrive/c/Users/joeea/Documents/python/picSameName.py
-# C:\Users\joeea\Pictures>python C:\Users\joeea\Documents\python\picSameName.py
-#   Python 3.0 Removed. dict.has_key() – use the in operator instead.
+# picListSameName.py - Generate a file with all pictures files (all .jpg files under current directory)
+#                      That have the same name.
+#
+# Example: 
+#     C:\Users\joeea\Pictures>python c:\Users\joeea\Documents\python\picListSameName.py
+#     18 Duplicate Name Detected.  see sameName.txt
+#
+# Note: The generated file is intended to be used with the ShowPhotoList.py and ShowPhotoListRand.py
+#       python scripts, which will display, one by one, all the pictures contained in the file.
+#
+# Note: Run on a DOS command prompt windows. (not tested in cygwin)
+#
 #
 import sys, getopt, re
 import os

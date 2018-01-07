@@ -6,6 +6,9 @@
 #     C:\Users\joeea\Pictures>python c:\Users\joeea\Documents\python\picListAll.py
 #     18359 Total Pictures Found.  see AllPics.txt
 #
+# Note: The generated file is intended to be used with the ShowPhotoList.py and ShowPhotoListRand.py
+#       python scripts, which will display, one by one, all the pictures contained in the file.
+#
 # Note: Run on a DOS command prompt windows. (not tested in cygwin)
 #
 import sys, getopt, re
