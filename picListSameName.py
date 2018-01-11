@@ -1,14 +1,15 @@
 #!/usr/bin/python
 #
-# picListSameName.py - Generate a file with all pictures files (all .jpg files under current directory)
-#                      That have the same name.
+# picListSameName.py - Generate a text file listing all the picture files, under current directory,
+#                      that have the same name.
+#                      This is intended to help find duplicate pictures so that they can be deleted.
 #
 # Example: 
 #     C:\Users\joeea\Pictures>python c:\Users\joeea\Documents\python\picListSameName.py
 #     18 Duplicate Name Detected.  see sameName.txt
 #
-# Note: The generated file is intended to be used with the ShowPhotoList.py and ShowPhotoListRand.py
-#       python scripts, which will display, one by one, all the pictures contained in the file.
+# Note: The generated text file is intended to be used with the ShowPhotoList.py python script,
+#       which will display, one by one, all the pictures contained in the file.
 #
 # Note: Run on a DOS command prompt windows. (not tested in cygwin)
 #

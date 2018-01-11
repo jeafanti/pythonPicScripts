@@ -1,13 +1,21 @@
+#!/usr/bin/python
+#
+# To display pictures uses "OpenCV" (Open Source Computer Vision Library: http://opencv.org)
+#
 # OpenCV (Open Source Computer Vision Library: http://opencv.org)
 #
-# photoList.py:
-#   o Takes a parameter of a file containing a list of photos
-#   o Sequencially displays the list of photos one at a time
-#   o The user can use the arrow keys to go back and forth in the list
-#   o The user can use 'd' to delete any unwanted photos
-#   QUESTION: Do deleted photos end up in the recycle bin??
+# ShowPhotoListRand.py:  (same as ShowPhotoList.py except shows picture in random order)
+#   1. Takes a parameter of a file containing a list of photos
+#     (see python scripts picListAll.py, picListSameName.py, & picListSameSize.py for generating the input file.
+#   2. Randomly displays the list of photos one at a time controlled using the keyboard.
+#      'n' or 'right arrow' - goto the next picture.
+#      'p' or 'left arrow'  - goto the previous picture.
+#      'esc'                - exit / quit
+#      'r'                  - rotate the picture (warning will change the size)
+#      'm'                  - will allow 'moving' or renaming the file (using the dos lanch window)
+#      'd'                  - delete the photo (warning: no comformation screen or way to recover deleted photo)
 #
-# Usage: python photoList.py picList.txt
+# Usage: python ShowPhotoList.py <picList.txt>
 #
 
 import sys

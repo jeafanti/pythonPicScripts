@@ -1,8 +1,20 @@
 #!/usr/bin/python
 #
-# python /cygdrive/c/Users/joeea/Documents/python/picSameName.py
-# C:\Users\joeea\Pictures>python C:\Users\joeea\Documents\python\picSameName.py
-#   Python 3.0 Removed. dict.has_key() – use the in operator instead.
+#
+# picListSameSize.py - Generate a text file listing all the picture files, under current directory,
+#                      that are the same size.
+#                      This is intended to help find duplicate pictures so that they can be deleted.
+#
+# Example: 
+#     C:\Users\joeea\Pictures>python c:\Users\joeea\Documents\python\picListSameSize.py
+#     18 Duplicate Size Detected.  see sameSize.txt
+#
+# Note: The generated text file is intended to be used with the ShowPhotoList.py python script,
+#       which will display, one by one, all the pictures contained in the file.
+#
+# Note: Run on a DOS command prompt windows. (not tested in cygwin)
+#
+# Note:  Python 3.0 Removed. dict.has_key() – use the 'in' operator instead.
 #
 import sys, getopt, re
 import os
